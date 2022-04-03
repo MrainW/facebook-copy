@@ -1,6 +1,15 @@
+## Technical stacks:
+
+- Next.js
+- Tailwindcss
+- Firebase
+- Next-auth(facebook login)
+
+
 ## install the project
 
 yarn install
+
 
 ## Next-Auth.js((FBLogin Config: https://next-auth.js.org/providers/facebook))
 
@@ -12,6 +21,7 @@ yarn install
   NEXTAUTH_URL=http://localhost:3000
   
   ```
+
 
 ## Firebase setting (https://console.firebase.google.com/)
 
