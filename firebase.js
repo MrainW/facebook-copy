@@ -2,13 +2,13 @@ import firebase from 'firebase';
 import 'firebase/storage';
 
 const firebaseConfig = {
-  apiKey: 'AIzaSyBp7APQQntiekByfnNkbn-PZcvPyBRkE0E',
+  apiKey: '',
   authDomain: 'facebook-copy-fdd42.firebaseapp.com',
   projectId: 'facebook-copy-fdd42',
-  storageBucket: 'facebook-copy-fdd42.appspot.com',
-  messagingSenderId: '510759747759',
-  appId: '1:510759747759:web:4460e087f85b3fafdd545a',
-  measurementId: 'G-CT170JTZE2',
+  storageBucket: '',
+  messagingSenderId: '',
+  appId: '',
+  measurementId: '',
 };
 
 const app = !firebase.apps.length ? firebase.initializeApp(firebaseConfig) : firebase.app();
